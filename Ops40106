@@ -1,0 +1,22 @@
+# Author: Bradley Baack
+
+## Description: Reading notes for Reading 6
+
+### 
+
+
+1) You have been made responsible for the company’s file server. How would you preserve the three elements of the CIA triad?
+  - Confidentiality: Encrypt data whether it's stored or being sent, and beef up access control with stuff like two-factor authentication.
+  - Integrity: Use hash functions and digital signatures to check that data hasn’t been messed with.
+  - Availability: Use backup systems and regular backups to make sure data is always there when you need it.
+2) Explain how hashing verifies data integrity using non-technical terms.
+  - Think of hashing as making a unique fingerprint for your data. If anything changes, the fingerprint won't match, showing that the data's been altered.
+3) How is hashing and encryption different?
+  - Hashing: Creates a unique, irreversible signature (hash) of the data.
+  - Encryption: Scrambles data into a code that can be reversed only with the right key, keeping the information private.
+
+
+# resources
+https://www.jscape.com/blog/implementing-the-cia-triad-when-transferring-files-through-the-internet
+
+https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/
