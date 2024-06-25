@@ -1,0 +1,32 @@
+Reading notes code
+
+# Author: Bradley Baack
+
+## Description: Reading notes for Reading 42
+
+### 
+
+
+1) Name the six credential-gathering techniques which Mimikatz is able to perform and explain how two of them work.
+  - Pass-the-Hash
+  - Pass-the-Ticket
+  - Over-Pass-the-Hash
+  - Over-Pass-the-Ticket
+  - Kerberos Ticket Extraction
+  - Credential Dumping
+
+  - Explanation of Two Techniques:
+  - Pass-the-Hash: Uses a stolen NTLM hash to authenticate without needing the actual password.
+  - Credential Dumping: Extracts plaintext passwords, hashes, and Kerberos tickets from memory.
+
+
+
+2) What are four ways we can defend against Mimikatz attacks. Explain how two of the mitigations can stop Mimikatz.
+  - Enable Credential Guard
+  - Use LSA Protection
+  - Enforce Strong Password Policies
+  - Monitor and Limit Admin Rights
+
+  - Explanation of Two Mitigations:
+  - Credential Guard: Isolates secrets, making it harder for Mimikatz to access credentials.
+  - LSA Protection: Secures the Local Security Authority process, preventing unauthorized memory access.
